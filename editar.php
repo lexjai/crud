@@ -22,7 +22,7 @@
 	              <form action="editarDatos.php" method="POST">
        
 			<div class="datos">
-				<label for="dni">DNI:</label> <input type="text" name="dni"  readonly  value="<?php echo $row['dni']?>">
+				<label for="dni">DNI:</label> <input style="background-color:grey" type="text" name="dni"  readonly  value="<?php echo $row['dni']?>">
 			</div>
 			<div class="datos">
 				<label for="nombre">NOMBRE:</label> <input type="text" name="nombre"

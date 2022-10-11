@@ -1,4 +1,10 @@
-<?php include 'conexion.php';?>
+<?php include 'conexion.php';
+
+if(!session_start()){
+    header("location:index.php");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
